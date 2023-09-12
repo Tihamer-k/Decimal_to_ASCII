@@ -47,7 +47,7 @@ def valid_entry(data, id_option):
         else:
             print("\n¡Formato de entrada no es correcto!" + Fore.RED + f" ({data})\n")
             if id_option == 1:
-                print("Debe iniciar el número y su base separado con un '-'. ")
+                print("Debe indicar el número y su base separado con un '-'. ")
             elif id_option == 2:
                 print("Debe indicar 's' para SÍ o 'n' para NO. ")
             data = input(Style.RESET_ALL + "\nIntenta de nuevo:\n")
